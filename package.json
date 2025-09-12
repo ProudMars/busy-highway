@@ -1,6 +1,6 @@
 {
   "name": "@proudmars/busy-highway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -28,7 +28,10 @@
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.43.0"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ProudMars/busy-highway"

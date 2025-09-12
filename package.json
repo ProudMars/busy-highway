@@ -1,7 +1,6 @@
 {
-  "name": "busy-highway",
+  "name": "@proudmars/busy-highway",
   "version": "1.0.0",
-  "description": "",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -15,8 +14,8 @@
     ".": "./dist/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ProudMars",
+  "license": "MIT",
   "packageManager": "pnpm@10.4.1",
   "devDependencies": {
     "@eslint/js": "^9.35.0",
@@ -28,5 +27,11 @@
     "tsc-alias": "^1.8.16",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.43.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProudMars/busy-highway"
+  },
+  "description": "A simple and efficient rate limiting library for Node.js."
 }

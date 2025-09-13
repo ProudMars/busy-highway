@@ -1,6 +1,6 @@
 {
   "name": "@proudmars/busy-highway",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
@@ -13,7 +13,33 @@
   "exports": {
     ".": "./dist/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "rate-limiting",
+    "rate-limiter",
+    "throttling",
+    "token-bucket",
+    "leaky-bucket",
+    "sliding-window",
+    "fixed-window",
+    "traffic-control",
+    "nodejs",
+    "typescript",
+    "performance",
+    "api-protection",
+    "request-limiting",
+    "rate-control",
+    "dos-protection",
+    "ddos",
+    "security",
+    "api-gateway",
+    "middleware",
+    "express-middleware",
+    "fastify-plugin",
+    "concurrency-control",
+    "request-throttling",
+    "api-rate-limit",
+    "traffic-shaping"
+  ],
   "author": "ProudMars",
   "license": "MIT",
   "packageManager": "pnpm@10.4.1",

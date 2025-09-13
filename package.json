@@ -8,7 +8,7 @@
     "dev": "esbuild --bundle --outfile=./dist/index.js ./src/index.ts --platform=node --format=esm --sourcemap --watch",
     "build": "esbuild --bundle --minify --outfile=./dist/index.js ./src/index.ts --platform=node --format=esm --sourcemap && tsc && tsc-alias",
     "lint": "eslint . --ext .ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "exports": {
     ".": "./dist/index.js"

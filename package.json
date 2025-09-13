@@ -1,6 +1,6 @@
 {
   "name": "@proudmars/busy-highway",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
